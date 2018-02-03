@@ -62,4 +62,4 @@ function mapStateToProps({ weather }) {
 
 function mapDispatchToProps(dispatch) { return bindActionCreators({deleteCity}, dispatch) }
 
-export default connect(mapStateToProps, mapDispatchToProps)(WeatherList); //connect to context
+export default connect(mapStateToProps, mapDispatchToProps)(WeatherList); //connect to context, перед состояние через пропс
